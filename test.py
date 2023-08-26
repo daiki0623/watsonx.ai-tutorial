@@ -7,12 +7,12 @@ from dotenv import load_dotenv, find_dotenv
 import os
 
 load_dotenv(find_dotenv())
-WATSON_ML_UEL = os.environ["WATSON_ML_URL"]
+WATSON_ML_URL = os.environ["WATSON_ML_URL"]
 WATSONX_API_KEY = os.environ["WATSONX_API_KEY"]
 PROJECT_ID = os.environ["WATSONX_PROJECT_ID"]
 
 my_credentials = {
-    "url"    : WATSON_ML_UEL,
+    "url"    : WATSON_ML_URL,
     "apikey" : WATSONX_API_KEY
 }
 
