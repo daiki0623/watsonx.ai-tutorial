@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "watsonx-ai-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Daiki Murata <Daiki.Murata@ibm.com>"]
+readme = "README.md"
+packages = [{include = "watsonx"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.4"
+gradio = "^3.45.2"
+python-dotenv = "1.0.0"
+ibm-watson-machine-learning = "^1.0.326"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
